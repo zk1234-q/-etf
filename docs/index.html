@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>美股板块每日行情</title>
+    <meta name="description" content="每日更新的美股板块强弱、涨跌排行和异动监控。" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">US Sector Pulse</p>
+          <h1>美股板块每日行情</h1>
+          <p class="subtitle">跟踪主要行业 ETF，快速判断今天谁领涨、谁走弱、哪里出现异动。</p>
+        </div>
+        <div class="hero-card" id="benchmarkCard">
+          <span class="label">基准</span>
+          <strong>加载中</strong>
+          <small>正在读取最新数据</small>
+        </div>
+      </section>
+
+      <section class="status-grid" id="summaryCards" aria-label="今日概览"></section>
+
+      <section class="panel split-panel">
+        <div>
+          <div class="section-heading">
+            <p>Ranking</p>
+            <h2>板块排行</h2>
+          </div>
+          <div class="rank-list" id="rankingList"></div>
+        </div>
+        <aside class="alerts-card">
+          <div class="section-heading">
+            <p>Signals</p>
+            <h2>异动提示</h2>
+          </div>
+          <div id="alertsList"></div>
+        </aside>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="section-heading">
+          <p>Details</p>
+          <h2>完整数据</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>代码</th>
+                <th>板块</th>
+                <th>收盘</th>
+                <th>日涨跌</th>
+                <th>相对SPY</th>
+                <th>20日量比</th>
+                <th>5日</th>
+                <th>20日</th>
+                <th>信号</th>
+              </tr>
+            </thead>
+            <tbody id="sectorTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer>
+        <span id="footerDate">等待数据</span>
+        <span>数据源 Yahoo Finance，仅供个人研究参考。</span>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

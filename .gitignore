@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+reports/*.csv
+reports/*.md
+!reports/.gitkeep
+# Local browser/test artifacts
+.browser-use-config/
+.browser-use-home/
+.edge-browser-use-profile/
+.server.pid
+dashboard-test.png

@@ -1,0 +1,63 @@
+[
+  {
+    "ticker": "SPY",
+    "name": "S&P 500",
+    "name_cn": "标普500基准",
+    "benchmark": true
+  },
+  {
+    "ticker": "XLK",
+    "name": "Technology",
+    "name_cn": "科技"
+  },
+  {
+    "ticker": "XLF",
+    "name": "Financials",
+    "name_cn": "金融"
+  },
+  {
+    "ticker": "XLV",
+    "name": "Health Care",
+    "name_cn": "医疗保健"
+  },
+  {
+    "ticker": "XLY",
+    "name": "Consumer Discretionary",
+    "name_cn": "可选消费"
+  },
+  {
+    "ticker": "XLP",
+    "name": "Consumer Staples",
+    "name_cn": "必需消费"
+  },
+  {
+    "ticker": "XLI",
+    "name": "Industrials",
+    "name_cn": "工业"
+  },
+  {
+    "ticker": "XLE",
+    "name": "Energy",
+    "name_cn": "能源"
+  },
+  {
+    "ticker": "XLB",
+    "name": "Materials",
+    "name_cn": "材料"
+  },
+  {
+    "ticker": "XLU",
+    "name": "Utilities",
+    "name_cn": "公用事业"
+  },
+  {
+    "ticker": "XLRE",
+    "name": "Real Estate",
+    "name_cn": "房地产"
+  },
+  {
+    "ticker": "XLC",
+    "name": "Communication Services",
+    "name_cn": "通信服务"
+  }
+]
