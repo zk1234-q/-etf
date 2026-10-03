@@ -1,6 +1,6 @@
 {
   "report_date": "2026-10-01",
-  "generated_at_utc": "2026-10-02T01:44:30+00:00",
+  "generated_at_utc": "2026-10-03T01:16:21+00:00",
   "benchmark": {
     "date": "2026-10-01",
     "ticker": "SPY",
@@ -11,7 +11,7 @@
     "daily_pct": 0.18,
     "gap_pct": 0.23,
     "intraday_pct": -0.05,
-    "volume": 47668000,
+    "volume": 47708100,
     "volume_ratio_20d": 1.06,
     "return_5d_pct": -0.42,
     "return_20d_pct": 0.1,
@@ -235,7 +235,7 @@
       "close": 80.33,
       "daily_pct": -0.33,
       "relative_to_spy_pct": -0.51,
-      "volume_ratio_20d": 1.18,
+      "volume_ratio_20d": 1.19,
       "return_5d_pct": -1.68,
       "return_20d_pct": -5.46,
       "distance_to_ma20_pct": -2.69,
